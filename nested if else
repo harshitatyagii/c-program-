@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    cin>>num;
+    if (num>=5000)
+    {
+        if (num>3000){
+    cout<<"KIET frnd";
+        }
+        else{
+        cout<<"JMS frnd";
+            
+        }
+    }
+    else if (num>=500)
+    {
+        cout<<"schl frnd";
+    }
+    else {
+    cout<<"home";
+}
+    return 0;
+}
