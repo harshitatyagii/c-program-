@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int sav;
+    cin>>sav;
+    if (sav>=1000)
+    {
+    cout<<"yes";
+    }
+    else {
+    cout<<"no";
+}
+    return 0;
+}
